@@ -1,0 +1,90 @@
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 2;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  .nav {
+    width: 30svw;
+    height: 5svh;
+    background-color: var(--fa10);
+    z-index: 2;
+  }
+  .flan::before {
+    content: "";
+    background: url(../assets/images/miscellaneous/flan2k.png);
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -2rem;
+    top: 7rem;
+    z-index: 2;
+  }
+  .flan::after {
+    content: "";
+    background: url(../assets/images/miscellaneous/flandefault.png);
+    filter: opacity(55%);
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -2rem;
+    top: 7rem;
+    z-index: 2;
+  }
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: space-between;
+    align-items: end;
+    z-index: 2;
+    .note {
+      background-color: var(--o30);
+      width: 30vw;
+      height: 13vh;
+      border: none;
+      border-top-left-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 4rem 0 0 0;
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: var(--fa90);
+      box-shadow: 0 4px 4px var(--o25);
+    }
+    .introBox {
+      width: 50vw;
+      height: 60vh;
+      background-color: var(--o30);
+      margin: 0 0 4rem 0;
+      border: none;
+      border-top-left-radius: 2rem;
+      border-bottom-left-radius: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 4px var(--o25);
+      .introText {
+        width: 85%;
+        color: var(--fa90);
+        font-size: 2.6rem;
+        font-weight: 300;
+        line-height: 8rem;
+      }
+    }
+  }
+}

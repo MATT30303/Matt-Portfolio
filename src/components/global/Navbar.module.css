@@ -1,0 +1,57 @@
+.navbar {
+  width: 49vw;
+  height: 15.7vh;
+  background-color: var(--fa10);
+  z-index: 2;
+  border: none;
+  position: absolute;
+  top: 1.5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 0 4px 4px var(--o25);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .home,
+  .about,
+  .projects,
+  .contact {
+    width: 10svw;
+    height: 7.7vh;
+    background-color: var(--o35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 4px var(--o25);
+    .homeTxt,
+    .aboutTxt,
+    .projectsTxt,
+    .contactTxt {
+      color: var(--white);
+      font-size: 1.7rem;
+      font-weight: 300;
+    }
+  }
+  .home {
+    background: radial-gradient(
+      circle 5rem at top left,
+      rgba(168, 0, 184, 0.35),
+      rgba(84, 0, 92, 0.35),
+      rgba(0, 0, 0, 0.35)
+    );
+  }
+  animation: Navbar_popUp 1.4s ease-in-out;
+}
+
+@keyframes Navbar_popUp {
+  0% {
+    top: -10rem;
+    opacity: 0%;
+  }
+  100% {
+    top: 1.5rem;
+    opacity: 100%;
+  }
+}
