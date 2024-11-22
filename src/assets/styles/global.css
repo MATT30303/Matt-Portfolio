@@ -1,0 +1,25 @@
+:root {
+  --purple: #411d69;
+  --dimPurple: #3a2645;
+  --pink: #a800b8;
+  --dimPink: #54005c;
+  --rose: #691d59;
+  --dimRose: #3f2645;
+  --black: #2c2c2c;
+  --white: #faf9f6;
+  --dark: #000000;
+
+  --fa90: rgba(250, 249, 246, 0.9);
+  --fa10: rgba(250, 249, 246, 0.1);
+  --o40: rgba(0, 0, 0, 0.4);
+  --o35: rgba(0, 0, 0, 0.35);
+  --o30: rgba(0, 0, 0, 0.3);
+  --o25: rgba(0, 0, 0, 0.25);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
