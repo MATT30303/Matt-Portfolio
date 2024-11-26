@@ -1,2 +1,2 @@
-export { default as Background } from "./Background";
+export { default as Skull } from "./Skull";
 export { default as Navbar } from "./Navbar";

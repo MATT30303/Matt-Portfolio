@@ -1,5 +1,5 @@
 import "../../assets/styles/global.css";
-import Styles from "./Background.module.css";
-export default function Home() {
+import Styles from "./Skull.module.css";
+export default function Skull() {
   return <div className={Styles.background}></div>;
 }

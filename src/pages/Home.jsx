@@ -1,11 +1,10 @@
 import "../assets/styles/global.css";
 import Styles from "./Home.module.css";
-import { Background, Navbar } from "../components/global";
+import { Skull, Navbar } from "../components/global";
 export default function Home() {
   return (
     <>
-      <Background></Background>
-
+      <Skull></Skull>
       <article className={Styles.home}>
         <Navbar></Navbar>
         <div className={Styles.flan}></div>
