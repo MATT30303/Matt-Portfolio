@@ -44,6 +44,25 @@
       line-height: 5rem;
     }
   }
+  .resumeContainer {
+    width: 10vw;
+    height: 20vh;
+    border: none;
+    border-radius: 100%;
+    z-index: 2;
+    position: absolute;
+    right: 15%;
+    top: 40%;
+    background-color: var(--o40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .cv {
+      font-size: 3rem;
+      color: var(--fa90);
+    }
+  }
 }
 .about::before {
   content: "";

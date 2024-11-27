@@ -20,6 +20,9 @@ export default function About() {
           challenges and ways to improve.
         </span>
       </div>
+      <div className={Styles.resumeContainer}>
+        <span className={Styles.cv}>CV</span>
+      </div>
     </article>
   );
 }
