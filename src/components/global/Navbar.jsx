@@ -11,7 +11,7 @@ export default function Navbar({ nav, navSelect }) {
   return (
     <div className={styles.navbar}>
       <div
-        className={styles.home}
+        className={nav === 0 ? styles.selected : styles.button}
         onClick={() => {
           selector(0);
         }}
@@ -19,7 +19,7 @@ export default function Navbar({ nav, navSelect }) {
         <span className={styles.homeTxt}>Home</span>
       </div>
       <div
-        className={styles.about}
+        className={nav === 1 ? styles.selected : styles.button}
         onClick={() => {
           selector(1);
         }}
@@ -27,7 +27,7 @@ export default function Navbar({ nav, navSelect }) {
         <span className={styles.aboutTxt}>About</span>
       </div>
       <div
-        className={styles.projects}
+        className={nav === 2 ? styles.selected : styles.button}
         onClick={() => {
           selector(2);
         }}
@@ -35,7 +35,7 @@ export default function Navbar({ nav, navSelect }) {
         <span className={styles.projectsTxt}>Projects</span>
       </div>
       <div
-        className={styles.contact}
+        className={nav === 3 ? styles.selected : styles.button}
         onClick={() => {
           selector(3);
         }}

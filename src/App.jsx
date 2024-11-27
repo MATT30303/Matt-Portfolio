@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Skull></Skull>
-      <Navbar Nav={Nav} navSelect={navSelect}></Navbar>
+      <Navbar nav={Nav} navSelect={navSelect}></Navbar>
       {pages[Nav]}
     </>
   );
